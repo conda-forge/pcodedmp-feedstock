@@ -11,8 +11,7 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
-  skip: true  # [py<=37]
+  number: 2
   entry_points:
      - pcodedmp = pcodedmp.pcodedmp:main
 
