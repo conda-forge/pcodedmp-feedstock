@@ -28,7 +28,7 @@ requirements:
     - easygui
     - msoffcrypto-tool
     - olefile
-    - pyparsing
+    - pyparsing <3,>=2.1.0
     - win_unicode_console  # [win]
 
 test:
