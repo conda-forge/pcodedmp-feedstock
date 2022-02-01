@@ -23,11 +23,6 @@ requirements:
   run:
     - oletools >=0.54
     - python
-    - colorclass
-    - easygui
-    - msoffcrypto-tool
-    - olefile
-    - pyparsing <3,>=2.1.0
     - win_unicode_console  # [win]
 
 test:
