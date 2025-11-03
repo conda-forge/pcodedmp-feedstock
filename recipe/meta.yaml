@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pcodedmp-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pcodedmp-{{ version }}.tar.gz
   sha256: 025f8c809a126f45a082ffa820893e6a8d990d9d7ddb68694b5a9f0a6dbcd955
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 5
+  number: 6
   entry_points:
      - pcodedmp = pcodedmp.pcodedmp:main
 
@@ -20,6 +20,7 @@ requirements:
     - pip
     - pypandoc
     - python
+    - setuptools
   run:
     - oletools >=0.54
     - python
