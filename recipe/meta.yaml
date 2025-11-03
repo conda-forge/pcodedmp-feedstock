@@ -20,6 +20,7 @@ requirements:
     - pip
     - pypandoc
     - python
+    - setuptools
   run:
     - oletools >=0.54
     - python
